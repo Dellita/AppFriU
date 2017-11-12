@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>МАРТ2014</Machine>
+    <WindowsUser>Sveta</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>c8ac7851-d1fc-4910-804f-8954f8d11d76</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\obj\ARM\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\bin\ARM\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\bin\ARM\Debug\AppFriU.Windows.exe">
+      <PackagePath>AppFriU.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Shared\fon.png">
+      <PackagePath>fon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Shared\dictFainWord.txt">
+      <PackagePath>dictFainWord.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Shared\dictFriWord.txt">
+      <PackagePath>dictFriWord.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Shared\dictFourWord.txt">
+      <PackagePath>dictFourWord.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Shared\fonBlank.jpg">
+      <PackagePath>fonBlank.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\bin\ARM\Debug\AppFriU.Windows.xr.xml">
+      <PackagePath>AppFriU.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\bin\ARM\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\bin\ARM\Debug\Dictionary.xbf">
+      <PackagePath>Dictionary.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\bin\ARM\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveta\Documents\Visual Studio 2015\Projects\AppFriU\AppFriU\AppFriU.Windows\bin\ARM\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
